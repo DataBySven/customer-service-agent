@@ -10,3 +10,6 @@ dependencies = [
     "pandas>=2.3.3",
     "python-dotenv>=1.2.1",
 ]
+
+[tool.setuptools.packages.find]
+include = ["clients*"]

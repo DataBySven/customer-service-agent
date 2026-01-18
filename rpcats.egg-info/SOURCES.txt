@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+clients/__init__.py
+clients/gorgias.py
+rpcats.egg-info/PKG-INFO
+rpcats.egg-info/SOURCES.txt
+rpcats.egg-info/dependency_links.txt
+rpcats.egg-info/requires.txt
+rpcats.egg-info/top_level.txt
