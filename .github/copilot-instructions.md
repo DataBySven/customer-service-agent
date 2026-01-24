@@ -8,11 +8,36 @@ This project is building **rpcats** — a customer service AI agent for **Northe
 
 ```
 customer-service-agent/
-├── rpcats/          # Python agent application (scaffolded with uv)
-│   ├── main.py      # Entry point
-│   └── pyproject.toml
-└── sop/             # Standard Operating Procedures (knowledge base)
+├── main.py              # Agent entry point
+├── pyproject.toml       # uv package config (rpcats v0.1.0)
+├── clients/             # API client modules
+│   ├── __init__.py
+│   └── gorgias.py       # Gorgias API client
+├── analyse/             # Data analysis notebooks
+│   └── gorgias-tickets-analysis.ipynb
+├── data/                # Exported data files
+└── sop/                 # Standard Operating Procedures (knowledge base)
+    ├── order-delay.md
+    ├── lost-in-transit.md
+    ├── custom-charge.md
+    ├── manage-quality-issue-resolution-using-gorgias-and-servicepoints.md
+    ├── manage-wrong-order-issues-using-gorgias-and-servicepoints.md
+    ├── manage-wrong-size-issues-in-customer-orders.md
+    ├── order-alert-status.md
+    ├── out-of-stock-triggered-by-leadership.md
+    ├── out-of-stock-triggered-by-order-delay-and-dispute.md
+    ├── proactive-follow-up-order-delay.md
+    ├── process-damaged-item-claims-using-gorgias-and-servicepoints
+    └── process-wrong-customization-issues-using-gorgias.md
 ```
+
+## Dependencies
+
+- `httpx` — HTTP client for API calls
+- `python-dotenv` — Environment variable management
+- `pandas` / `pyarrow` — Data analysis
+- `matplotlib` — Visualization
+- `ipykernel` — Jupyter notebook support
 
 ## Domain Context
 
@@ -52,10 +77,12 @@ Most SOPs follow this structure:
 ## Development Setup
 
 ```powershell
-cd rpcats
 uv sync          # Install dependencies
 uv run main.py   # Run the agent
 ```
+
+Environment variables (`.env`):
+- Configure API credentials for Gorgias and other integrations
 
 ## Code Conventions
 
