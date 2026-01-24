@@ -34,8 +34,4 @@ Thumbs.db
 
 # Logs & data
 *.log
-*.csv
-*.json
 !package.json
-data/
-output/
