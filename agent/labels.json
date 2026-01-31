@@ -1,0 +1,52 @@
+{
+    "labels": {
+        "Order Delay": {
+            "display_name": "Vertraagde Bestelling",
+            "description": "Klant vraagt naar verzendstatus, track & trace updates, of vertraagde levering. Bestelling is niet binnen de verwachte termijn aangekomen."
+        },
+        "Lost Order": {
+            "display_name": "Verloren Bestelling",
+            "description": "Pakket staat als afgeleverd maar klant geeft aan het niet ontvangen te hebben, of tracking toont langere tijd geen updates. Bestelling lijkt verloren tijdens transport."
+        },
+        "Return Order": {
+            "display_name": "Retourverzoek",
+            "description": "Klant wil een product retourneren voor terugbetaling of omruiling. Kan ook vragen over retourlabels of retourbeleid bevatten."
+        },
+        "Cancel Order": {
+            "display_name": "Annulering",
+            "description": "Klant wil een bestelling annuleren voordat deze is verzonden of geleverd."
+        },
+        "Damaged Item": {
+            "display_name": "Beschadigd Product",
+            "description": "Product is kapot, gebarsten, gescheurd of beschadigd aangekomen tijdens verzending. Zichtbare fysieke schade aan het artikel."
+        },
+        "Bad Product Quality": {
+            "display_name": "Kwaliteitsprobleem",
+            "description": "Product is defect, werkt niet zoals verwacht, of kwaliteit komt niet overeen met beschrijving/verwachtingen. Niet beschadigd tijdens verzending maar inherent gebrekkig."
+        },
+        "Wrong Order": {
+            "display_name": "Verkeerde Bestelling",
+            "description": "Klant heeft verkeerd product ontvangen, verkeerde kleur, verkeerde maat, of verkeerde variant dan besteld."
+        },
+        "Missing Item": {
+            "display_name": "Ontbrekend Artikel",
+            "description": "Bestelling is aangekomen maar één of meerdere artikelen uit de bestelling ontbreken. Gedeeltelijke zending ontvangen."
+        },
+        "Product Question": {
+            "display_name": "Productvraag",
+            "description": "Vragen over productspecificaties, eigenschappen, compatibiliteit, maatvoering, materialen of beschikbaarheid voor of na aankoop."
+        },
+        "Shipping Question": {
+            "display_name": "Verzendvraag",
+            "description": "Algemene vragen over verzendopties, kosten, levertijden, of verzending naar specifieke locaties. Niet over een specifieke vertraagde bestelling."
+        },
+        "Special Request": {
+            "display_name": "Speciaal Verzoek",
+            "description": "Aangepaste verzoeken zoals cadeauverpakking, speciale verpakking, adreswijzigingen, bestellingsaanpassingen, of andere niet-standaard verzoeken."
+        },
+        "Other": {
+            "display_name": "Overig",
+            "description": "Algemene vragen die niet in andere categorieën passen. Gebruik alleen wanneer geen andere categorie van toepassing is."
+        }
+    }
+}
